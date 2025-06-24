@@ -30,4 +30,5 @@ Este é um projeto que recria a página oficial do **iPhone 16** da Apple com um
 ## 🙋‍♀️ Autora
 
 Desenvolvido por **Laura Serbêto** – apaixonada por tecnologia, front-end e design de interfaces.
+
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lauraserbeto/)
