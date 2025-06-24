@@ -236,8 +236,61 @@ footer #logo-footer{
 }
 
 
-/*responsividade para mobile*/
+/*medias queries*/
 @media(max-width: 480px){
+
+    body{
+        display: flex;
+    }
+
+
+    .second_description{
+        padding: 0 10rem 0 10rem;
+        font-size: 2.5rem;
+    }
+
+
+    #navbar{
+        font-size: 7rem;
+    }
+
+    #navbar img{
+        width: 5rem;
+    }
+    
+    #main-content #title{
+        margin-top: 0;
+        font-size: 3rem;
+    }
+
+    .img_subtitle {
+        width: 95%;
+    }
+
+    #main-content .btn {
+    margin-top: 3%;
+    font-size: 3rem;
+    padding: .9rem 2.4rem;
+    align-self: center;
+    }
+
+    #main-content #price {
+        font-size: 3rem;
+    }
+
+    #main-content #description {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    #second_subtitle {
+        font-size: 5rem;
+    }
+
+
+    footer p{
+        font-size: 2rem;
+    }
 
     #navbar li{
         display: none;
@@ -263,5 +316,44 @@ footer #logo-footer{
     #main-content #subtitle{
         font-size: 3rem;
     }
+
+}
+
+
+
+@media(max-width:770px){
+    body{
+        display: flex;
+    }
+
+    #main-content #title{
+        margin-top: 3rem;
+        font-size: 2rem;
+    }
+
+    .img_subtitle {
+        width: 90%;
+    }
+}
+
+
+@media(max-width:900px){
+    body{
+        display: flex;
+    }
+
+}
+
+@media(max-width:1040px){
+    .second_description{
+        padding: 0 15rem 0 15rem;
+    }
+
+    #main-content #title{
+        position: relative;
+        text-align: center;
+        left: 0;
+    }
+
 
 }
